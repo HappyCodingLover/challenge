@@ -39,6 +39,9 @@ Useful resources:
 ### 2) Write tests
 
 Make sure that all your code is tested properly
+test/ethpool.js
+
+``` yarn test ```
 
 ### 3) Deploy your contract
 
@@ -47,9 +50,11 @@ Deploy the contract to any Ethereum testnet of your preference. Keep record of t
 Bonus:
 
 - Verify the contract in Etherscan
+``` https://rinkeby.etherscan.io/address/0x735aBD18d69cd66098A7bDB457B4Bed8Bc891a92#code ```
 
 ### 4) Interact with the contract
 
 Create a script (or a Hardhat task) to query the total amount of ETH held in the contract.
+``` scripts/balanceQuery.js ```
 
 _You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie_
